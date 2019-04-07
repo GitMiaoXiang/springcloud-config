@@ -6,3 +6,8 @@ server:
 PRODUCT:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+#这段配置不能加载配置中心
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
