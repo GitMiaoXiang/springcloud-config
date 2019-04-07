@@ -1,3 +1,4 @@
+evn: dev
 server:
   port: 8762
 eureka:
