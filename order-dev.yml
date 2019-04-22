@@ -1,4 +1,4 @@
-evn: test1
+evn: test
 server:
   port: 8762
 
