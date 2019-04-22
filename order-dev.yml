@@ -1,4 +1,4 @@
-evn: dev11111111111111
+evn: dev
 server:
   port: 8762
 
