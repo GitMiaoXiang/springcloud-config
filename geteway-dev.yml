@@ -12,3 +12,21 @@ spring:
     port: 5672
     username: root
     password: sa
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+zuul:
+  routes:
+    order:
+      path: /orderServer/**
+      serverId: order
+#      配置空可以获取到cookies
+      sensitiveHeaders:
+
+#    简洁写法
+#    order: /orderServer/**
+#    禁止访问
+  ignored-patterns:
+    - /orderServer/order/config
