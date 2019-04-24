@@ -28,5 +28,5 @@ zuul:
 #    简洁写法
 #    order: /orderServer/**
 #    禁止访问
-  ignored-patterns:
-    - /orderServer/order/config
+#   ignored-patterns:
+#     - /orderServer/order/config
