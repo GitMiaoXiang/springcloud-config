@@ -1,0 +1,14 @@
+evn: devewrwer
+server:
+  port: 8766
+
+#自定义负载均衡器
+PRODUCT:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+spring: 
+  rabbitmq:
+    host: 192.168.43.118
+    port: 5672
+    username: root
+    password: sa
